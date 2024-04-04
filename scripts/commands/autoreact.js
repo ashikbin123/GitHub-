@@ -7,10 +7,10 @@ config: {
   version: "1.0.0",
   permission: 0,
   credits: "nayan",
-  description: "",
+  description: "All message",
   prefix: 'awto', 
   category: "auto", 
-  usages: "[off]/[on]",
+  usages: "[on]",
   cooldowns: 5,
   dependencies: {
     "request": "",
