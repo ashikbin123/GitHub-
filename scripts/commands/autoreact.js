@@ -10,7 +10,7 @@ config: {
   description: "All message",
   prefix: 'awto', 
   category: "auto", 
-  usages: "[on]",
+  usages: "",
   cooldowns: 5,
   dependencies: {
     "request": "",
