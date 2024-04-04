@@ -7,10 +7,10 @@ config: {
   version: "1.0.0",
   permission: 0,
   credits: "nayan",
-  description: "All message",
-  prefix: 'awto', 
+  description: "turn on/off automatically seen when new messages are available",
+  prefix: 'auto', 
   category: "auto", 
-  usages: "",
+  usages: "on/off",
   cooldowns: 5,
   dependencies: {
     "request": "",
