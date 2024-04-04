@@ -6,7 +6,7 @@ module.exports.config = {
   description: "Random shairi video",
   prefix: true,
   category: "Media", 
-  usages: "", 
+  usages: "Shairi", 
   cooldowns: 5,
   dependencies: {
     "request":"",
