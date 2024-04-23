@@ -1,19 +1,17 @@
 const fs = require('fs-extra');
 const pathFile = __dirname + '/autoreact/autoreact.txt';
 
-module.exports = {
-config: {
+module.exports.config: {
   name: "autoreact",
   version: "1.0.0",
-  permission: 0,
+  permission: 2,
   credits: "nayan",
   description: "turn on/off automatically seen when new messages are available",
   prefix: 'true', 
   category: "system", 
   usages: "on/off",
-  cooldowns:5   
+  cooldowns:5, 
   }
-},
 
   languages: {
   "vi": {},
