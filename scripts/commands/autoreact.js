@@ -11,11 +11,7 @@ config: {
   prefix: 'true', 
   category: "system", 
   usages: "on/off",
-  cooldowns: 5,
-  dependencies: {
-    "request": "",
-    "fs-extra": "",
-    "axios": ""
+  cooldowns:5   
   }
 },
 
