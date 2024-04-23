@@ -8,8 +8,8 @@ config: {
   permission: 0,
   credits: "nayan",
   description: "turn on/off automatically seen when new messages are available",
-  prefix: 'auto', 
-  category: "auto", 
+  prefix: 'true', 
+  category: "system", 
   usages: "on/off",
   cooldowns: 5,
   dependencies: {
